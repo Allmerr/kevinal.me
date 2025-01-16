@@ -1,0 +1,22 @@
+site_name: kevinal.me
+site_description: Personal blog of Kevin Almer
+site_url: https://kevinal.me
+site_author: Muhammad Kevin Almer
+repo_url: https://github.com/allmerr/kevinal.me
+repo_name: allmerr/kevinal.me
+theme:
+  name: material
+  features:
+    - navigation.indexes
+
+nav:
+  - Home: index.md
+  - Software:
+    - blog/index.md
+    - blog/tags.md
+  - Hardware:
+    - blog/index.md
+    - blog/tags.md
+  - Networking: 
+    - blog/index.md
+    - blog/tags.md
