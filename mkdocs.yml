@@ -1,13 +1,19 @@
-site_name: kevinal.me
+site_name: Muhammad Kevin Almer
 site_description: Personal blog of Kevin Almer
 site_url: https://kevinal.me
 site_author: Muhammad Kevin Almer
 repo_url: https://github.com/allmerr/kevinal.me
 repo_name: allmerr/kevinal.me
+
 theme:
+  palette:
+    scheme: slate
+    primary: black
   name: material
   features:
     - navigation.indexes
+  favicon: assets/favicon.png
+  logo: assets/logo.png
 
 nav:
   - Home: index.md
@@ -20,3 +26,20 @@ nav:
   - Networking: 
     - blog/index.md
     - blog/tags.md
+
+    
+extra_css:
+- stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/allmerr
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/kevin-almer
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/_kevinal_
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:kevinalmer.bisnis@gmail.com
+  generator: false
+copyright: Copyright &copy; 2025 Muhammad Kevin Almer
